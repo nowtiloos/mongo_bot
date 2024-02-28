@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ass-bot"
+version = "0.1.0"
+description = "aggregation of salary statistics bot"
+authors = ["Konstantin_Kozhevnikov <i@nowtiloos.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+setuptools = "^69.1.1"
+pydantic-settings = "^2.2.1"
+aiogram = "^3.4.1"
+pymongo = "^4.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
